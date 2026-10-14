@@ -39,7 +39,7 @@ Para usar un SSG necesitamos tres cosas diferenciadas:
 3. **Configuración**
    - Datos generales del sitio: título, idioma, URL, etc.
 
-> 💡 Si tuviésemos **500 archivos HTML** escritos a mano y quisiéramos cambiar el pie de página, tendríamos que editar los 500. Con una plantilla, se cambia ~~en 500 sitios~~ **en un solo sitio**.
+> 💡 Si tuviésemos **500 archivos HTML** escritos a mano y quisiéramos cambiar el pie de página, tendríamos que editar los 500. Con una plantilla, se cambia **en un solo sitio**.
 
 Ejemplo de archivo de contenido en Markdown con su cabecera de configuración (*front matter*):
 
@@ -64,14 +64,6 @@ El generador lee el contenido y las plantillas, los **combina** y crea los archi
 ### ¿En qué momento se genera el HTML?
 
 El HTML se genera **previamente**, durante el proceso de *build*. Cuando el usuario visita la página, el servidor solo entrega el archivo HTML que ya estaba creado.
-
-Por ejemplo, en Hugo el *build* se lanza con:
-
-```bash
-hugo
-```
-
-Y en Astro con `npm run build`.
 
 ## Ventajas e inconvenientes
 
@@ -108,13 +100,6 @@ Frente a crear y mantener una web directamente con HTML:
 
 - [x] Investigar qué es un SSG
 - [x] Comparar Jekyll, Hugo y Astro
-- [ ] Elegir un SSG para la actividad práctica
-
-##### Glosario rápido
-
-***Build***: proceso en el que el SSG transforma el contenido y las plantillas en HTML[^1].
-
-###### Documento elaborado en Markdown y visualizado en GitHub.
 
 ## Vídeo explicativo
 
@@ -123,5 +108,3 @@ Vídeo de menos de 5 minutos: [Hugo in 100 Seconds](https://www.youtube.com/watc
 [![Vídeo: Hugo in 100 Seconds](https://img.youtube.com/vi/0RKpf3rK57I/0.jpg)](https://www.youtube.com/watch?v=0RKpf3rK57I)
 
 ---
-
-[^1]: Documentación oficial: [Jekyll](https://jekyllrb.com/), [Hugo](https://gohugo.io/) y [Astro](https://astro.build/).

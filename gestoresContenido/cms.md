@@ -63,7 +63,7 @@ echo "<p>" . $entrada['texto'] . "</p>";
 ### Ventajas
 
 - **Velocidad** de desarrollo y mantenimiento.
-- Muchos son de ~~pago~~ **código abierto**.
+- Muchos son de **código abierto**.
 - Funcionalidades avanzadas: formularios, mapas, calendario de eventos, etc.
 - Fáciles de usar para personas con poca o ninguna habilidad técnica.
 - Reducen costes: cuando los usuarios aprenden a usarlo, se desenvuelven solos y se necesita menos asistencia técnica.
@@ -77,9 +77,6 @@ echo "<p>" . $entrada['texto'] . "</p>";
 - **Mantenimiento:** si no se actualiza periódicamente, pueden aparecer graves vulnerabilidades de seguridad.
 - **Soporte técnico:** en plataformas mantenidas por la comunidad hay que confiar en foros y documentación.
 
-> ⚠️ **Importante:** un CMS desactualizado es una de las puertas de entrada más habituales para los ataques.
->
-> > Por eso conviene mantener al día el núcleo, los temas y los plugins.
 
 ## Tipos de CMS y ejemplos
 
@@ -113,9 +110,7 @@ Elimina por completo la capa visual: solo almacena la información de forma estr
 - [x] Monolítico → backend + frontend juntos
 - [x] Desacoplado → separados, con frontend incluido
 - [x] Headless → solo backend + API
-- [ ] Elegir CMS para la práctica final
 
-###### Nota: la clasificación por licencia distingue entre CMS de código abierto y CMS propietarios.
 
 ## Los CMS más usados
 
@@ -158,5 +153,3 @@ Vídeo de menos de 5 minutos: [Qué es un CMS y para qué sirve (Explicado en 2 
 [![Vídeo: Qué es un CMS](https://img.youtube.com/vi/sSh5AAmItN0/0.jpg)](https://www.youtube.com/watch?v=sSh5AAmItN0)
 
 ---
-
-[^1]: W3Techs — Usage statistics of content management systems: <https://w3techs.com/technologies/overview/content_management>
