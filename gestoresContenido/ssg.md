@@ -96,11 +96,6 @@ Frente a crear y mantener una web directamente con HTML:
 - **Hugo**: ideal cuando la **velocidad** de generación es importante o el sitio es muy grande.
 - **Astro**: la más *moderna*; recomendable si ya se conoce JavaScript.
 
-#### Lista de tareas de la práctica
-
-- [x] Investigar qué es un SSG
-- [x] Comparar Jekyll, Hugo y Astro
-
 ## Vídeo explicativo
 
 Vídeo de menos de 5 minutos: [Hugo in 100 Seconds](https://www.youtube.com/watch?v=0RKpf3rK57I)
