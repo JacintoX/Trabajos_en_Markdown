@@ -65,6 +65,37 @@ El generador lee el contenido y las plantillas, los **combina** y crea los archi
 
 El HTML se genera **previamente**, durante el proceso de *build*. Cuando el usuario visita la página, el servidor solo entrega el archivo HTML que ya estaba creado.
 
+> **Matiz:** algunos generadores modernos, como Astro, también permiten renderizar ciertas páginas bajo demanda en el servidor. Ese comportamiento depende de la configuración y del tipo de despliegue; por defecto, Astro genera páginas estáticas.
+
+### Ejemplo práctico: el proceso completo con Hugo
+
+*Ejemplo ilustrativo; los nombres de carpetas y comandos cambian según el generador.*
+
+**1. Estructura mínima del proyecto:**
+
+```text
+mi-sitio/
+├── hugo.toml          ← configuración (título, idioma, URL…)
+├── content/
+│   └── _index.md      ← contenido en Markdown
+├── layouts/
+│   └── index.html     ← plantilla
+└── public/            ← se crea al generar el sitio (HTML final)
+```
+
+**2. Generar el sitio:**
+
+```bash
+hugo            # lee content/ y layouts/ y escribe el resultado en public/
+hugo server     # opcional: vista previa local en http://localhost:1313
+```
+
+**3. Comprobar el resultado:** dentro de `public/` aparece `index.html` con el contenido de `_index.md` ya insertado en la plantilla.
+
+**4. Publicar:** se suben los archivos de `public/` a un *hosting* estático (GitHub Pages, Netlify…).
+
+**¿Y si cambio algo?** Se edita el archivo `.md` o la plantilla, se vuelve a ejecutar `hugo` y se publica la nueva versión. Si hay un error en la plantilla, Hugo muestra un mensaje en la terminal y no genera el sitio hasta corregirlo.
+
 ## Ventajas e inconvenientes
 
 Frente a crear y mantener una web directamente con HTML:
