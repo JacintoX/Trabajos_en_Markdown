@@ -114,15 +114,22 @@ Elimina por completo la capa visual: solo almacena la información de forma estr
 
 ## Los CMS más usados
 
-Según **W3Techs**[^1], consultado el 16 de septiembre de 2026, el top 5 de CMS a nivel mundial es:
+Según **W3Techs**[^1], con datos consultados el 27 de octubre de 2026, el top 5 de CMS a nivel mundial es:
 
-| Puesto | CMS | Cuota |
-| :----: | :-- | ----: |
-| 1 | WordPress | 58,8 % |
-| 2 | Shopify | 7,8 % |
-| 3 | Wix | 6,2 % |
-| 4 | Squarespace | 3,5 % |
-| 5 | Joomla | 1,6 % |
+| Puesto | CMS | % sobre todas las webs | % sobre webs con CMS conocido |
+| :----: | :-- | ----: | ----: |
+| 1 | WordPress | 39,6 % | 58,3 % |
+| 2 | Shopify | 5,3 % | 7,9 % |
+| 3 | Wix | 4,2 % | 6,2 % |
+| 4 | Squarespace | 2,4 % | 3,6 % |
+| 5 | Joomla | 1,1 % | 1,6 % |
+
+**¿Qué mide cada columna?**
+
+- **% sobre todas las webs:** de cada 100 sitios web analizados, cuántos usan ese CMS. Incluye las webs que no usan ningún CMS detectable (un 32,1 %).
+- **% sobre webs con CMS conocido:** de cada 100 sitios que sí usan un CMS identificado, cuántos usan ese CMS. Es la «cuota de mercado» que suele citarse.
+
+> **Conclusión:** WordPress domina con mucha diferencia: lo usan casi 4 de cada 10 webs del mundo y casi 6 de cada 10 que usan un CMS. Le siguen los CMS alojados (Shopify, Wix y Squarespace), lo que muestra que muchos usuarios prefieren servicios que incluyen el *hosting* y el mantenimiento.
 
 ![Top 5 CMS más usados](img/cuota_cms.png)
 
